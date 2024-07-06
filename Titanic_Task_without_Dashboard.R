@@ -81,7 +81,7 @@ p1 <- ggplot(survival_by_class_df, aes(x = Class, y = Count, fill = Survival)) +
   geom_bar(stat = "identity", position = "dodge") +
   labs(title = "Survival by Class", x = "Class", y = "Number of Passengers") +
   scale_fill_manual(values = c("skyblue", "black"),
-                    labels = c("Survived", "Did not survive"))
+                    labels = c("Did not survive", "survived"))
 
 # Calculate mean age
 mean_age <- mean(data$Age, na.rm = TRUE)  # Calculate mean age, ignoring NA values
