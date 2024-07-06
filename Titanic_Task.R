@@ -16,7 +16,7 @@ library(flexdashboard)
 
 
 # Load Titanic dataset
-data <- read.csv("E:\\Codsoft\\Titanic-Dataset.csv")
+data <- read.csv("E:\\Codsoft\\Titanic_Task\\Titanic-Dataset.csv")
 
 # Check for duplicates
 duplicate_count <- sum(duplicated(data))
@@ -199,7 +199,6 @@ p3
 ```{r}
 p4
 ```
-
 
 
 
